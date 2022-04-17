@@ -2,19 +2,22 @@
     {
         "id":"1",
         "img":"https://image.shutterstock.com/image-vector/male-teacher-blackboard-copy-space-260nw-1085217038.jpg",
-        "name":"Teaching English in a very easy way",
-        "description":"In my coaching, I teach English in a very easy way that you must understand. I provide shortcut techniques on each and every topic. I also provide lecture sheets for each and every topic."
+        "name":"Private Batch",
+        "description":"I have super successful private batch. You are invited to join my batch.",
+        "price":"1500 BDT"
     },
     {
         "id":"2",
-        "img":"https://png.pngtree.com/png-vector/20190930/ourmid/pngtree-exam-icon-isolated-on-abstract-background-png-image_1764007.jpg",
-        "name":"Taking mini test, weekly test and monthly tests.",
-        "description":"I take various types of exams such as weekly test, monthly test and mini model test. So you have the topics in practice."
+        "img":"https://cdn5.vectorstock.com/i/1000x1000/97/39/private-teacher-one-to-one-training-boy-vector-33819739.jpg",
+        "name":"1-on-1 teaching",
+        "description":"Feeling nervous with all the students? No problem, I also teach 1-one-1 styled teaching.",
+        "price":"3000 BDT"
     },
     {
         "id":"3",
-        "img":"https://freepikpsd.com/file/2019/10/question-mark-png-question-png-768_1024.png",
-        "name":"Getting problems? You can get me in your hand",
-        "description":"I know you can get many and many problems while doing exercises, taking tests and practice at home. You can share each and every problem with me at office time to solve them. I am always with you."
+        "img":"https://thumbs.dreamstime.com/b/coaching-online-trainings-group-lessons-webinars-seminars-training-courses-teacher-internet-vector-illustration-131437680.jpg",
+        "name":"Don't get to me for distance?",
+        "description":"No tension, I have online batches too. You can join them.",
+        "price":"3500 BDT"
     }    
 ]

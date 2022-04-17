@@ -4,22 +4,23 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [services, setServices] = useState([])
-    useEffect(()=>{
+    useEffect(() => {
         fetch('services.json')
-        .then(res => res.json())
-        .then(data => setServices(data))
+            .then(res => res.json())
+            .then(data => setServices(data))
     }, [])
     return (
         <div>
             <h2 className='text-center'>My Services</h2>
             <Container>
-            <Row md={3} sm={1}>
-            {
-                services.map(service => <Service
-                key={service.id}
-                service={service}></Service>)
-            }
-            </Row>
+                <Row md={3} sm={1} className='g-4'>
+                    {
+                        services.map(service => <Service
+                            key={service.id}
+                            service={service}
+                            ></Service>)
+                    }
+                </Row>
             </Container>
         </div>
     );
