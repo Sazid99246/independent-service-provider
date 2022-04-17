@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "img":"https://image.shutterstock.com/image-vector/male-teacher-blackboard-copy-space-260nw-1085217038.jpg",
+        "name":"Teaching English in a very easy way",
+        "description":"In my coaching, I teach English in a very easy way that you must understand. I provide shortcut techniques on each and every topic. I also provide lecture sheets for each and every topic."
+    },
+    {
+        "id":"2",
+        "img":"https://png.pngtree.com/png-vector/20190930/ourmid/pngtree-exam-icon-isolated-on-abstract-background-png-image_1764007.jpg",
+        "name":"Taking mini test, weekly test and monthly tests.",
+        "description":"I take various types of exams such as weekly test, monthly test and mini model test. So you have the topics in practice."
+    },
+    {
+        "id":"3",
+        "img":"https://freepikpsd.com/file/2019/10/question-mark-png-question-png-768_1024.png",
+        "name":"Getting problems? You can get me in your hand",
+        "description":"I know you can get many and many problems while doing exercises, taking tests and practice at home. You can share each and every problem with me at office time to solve them. I am always with you."
+    }    
+]
