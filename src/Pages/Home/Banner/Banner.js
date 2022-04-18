@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import BannerImg from '../../../images/banner-img.png'
 const Banner = () => {
     return (
-        <Container className='d-flex align-items-center justify-content-center flex-md-row flex-sm-column'>
+        <Container className='d-flex flex-lg-row flex-column align-items-center justify-content-between'>
             <img className='img-fluid' src={BannerImg} alt="" />
             <div>
                 <h3>Hey, looking for an English tutor?</h3>

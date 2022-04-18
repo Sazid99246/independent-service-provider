@@ -12,7 +12,7 @@ const Benefits = () => {
     return (
         <Container className='mt-2'>
             <h2 className='text-center'>Why me?</h2>
-            <Row md={3} sm={1} className='g-2'>
+            <Row lg={3} md={2} sm={1} className='g-4'>
                 {
                     benefits.map(benefit => <Benefit
                         benefit={benefit}
