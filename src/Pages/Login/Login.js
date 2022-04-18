@@ -12,7 +12,14 @@ const Login = () => {
     const [signInWithGoogle] = useSignInWithGoogle(auth);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, error] = useSignInWithEmailAndPassword(auth);
+    if (error) {
+        return (
+          <div>
+            <p>Error: {error.message}</p>
+          </div>
+        );
+      }
 
     const handleFormSubmit = (event) => {
         event.preventDefault();

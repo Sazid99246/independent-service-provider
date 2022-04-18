@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import app from '../../../firebase.init';
 const auth = getAuth(app)
 const Header = () => {
-    const [user] = useAuthState(auth)
+    const [user] = useAuthState(auth);
     const logOut = () => {
         signOut(auth)
     }
@@ -30,15 +30,11 @@ const Header = () => {
                             <Nav.Link as={Link} to="/about">About Me</Nav.Link>
                             {
                                 user
-                                    ? <button onClick={() => logOut()}>Sign out</button>
+                                    ? <button onClick={logOut}>Sign out</button>
                                     : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                             }
 
-                            {
-                                user
-                                    ? <button onClick={() => logOut()}>Sign out</button>
-                                    : <Nav.Link as={Link} to="/signup">Sign up</Nav.Link>
-                            }
+                            <Nav.Link as={Link} to="/signup">Sign up</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
