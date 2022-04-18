@@ -4,9 +4,10 @@
     border: 1px solid rgba(149, 160, 167, 1);
 }
 .google-sign-in{
-    font-size: 35px;
-    height: 100px;
-    width: 400px;
-    padding: 5px;
     background-color: white;
+    color: black;
+    height: 50px;
+    padding: 20px;
+    width: 400px;
+    font-size: 35px;
 }
